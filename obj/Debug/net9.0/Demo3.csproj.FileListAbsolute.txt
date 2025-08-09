@@ -140,4 +140,5 @@
 /home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/77ky0l9n44-h1s4sie4z3.gz
 /home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/ap2apm0a7j-63fj8s7r0e.gz
 /home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/68cgx7od5f-0j3bgjxly4.gz
-/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-y4ch73lxtg.gz
+/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/Demo3.sourcelink.json
+/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-biadehtt3j.gz

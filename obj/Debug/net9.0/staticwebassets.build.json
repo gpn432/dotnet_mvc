@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n9PP9s0FbCKHBNfCA1cCmfNbeyuYRUIvMberZJ15M08=",
+  "Hash": "yWdnWFI33qqps1IG2M5F5vM4dNi48+WwVS6Pb2EmkHI=",
   "Source": "Demo3",
   "BasePath": "_content/Demo3",
   "Mode": "Default",
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-y4ch73lxtg.gz",
+      "Identity": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-biadehtt3j.gz",
       "SourceId": "Demo3",
       "SourceType": "Discovered",
       "ContentRoot": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Demo3",
-      "RelativePath": "css/hello#[.{fingerprint=y4ch73lxtg}]?.css.gz",
+      "RelativePath": "css/hello#[.{fingerprint=biadehtt3j}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/wwwroot/css/hello.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "okzq3zzyhv",
-      "Integrity": "aMp6Q47G6J/y9JNvsTN8vFhs12EOwkZQZnfu5UpLcFo=",
+      "Fingerprint": "yzql8p7q6c",
+      "Integrity": "7nfoJwuIxydTGsrCRvfHat8aY/q+Cf0yRCwfwjJIX4Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/wwwroot/css/hello.css"
@@ -2362,8 +2362,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y4ch73lxtg",
-      "Integrity": "TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs=",
+      "Fingerprint": "biadehtt3j",
+      "Integrity": "jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/hello.css"
@@ -6550,13 +6550,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/hello.css",
-      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-y4ch73lxtg.gz",
+      "Route": "css/hello.biadehtt3j.css",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-biadehtt3j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005882352941"
+          "Quality": "0.005681818182"
         }
       ],
       "ResponseHeaders": [
@@ -6566,19 +6566,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "169"
+          "Value": "175"
         },
         {
           "Name": "ETag",
-          "Value": "\"aMp6Q47G6J/y9JNvsTN8vFhs12EOwkZQZnfu5UpLcFo=\""
+          "Value": "\"7nfoJwuIxydTGsrCRvfHat8aY/q+Cf0yRCwfwjJIX4Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 07:57:26 GMT"
+          "Value": "Sat, 09 Aug 2025 08:02:30 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -6594,18 +6594,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs=\""
+          "Value": "W/\"jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "biadehtt3j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/hello.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs="
+          "Value": "sha256-jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI="
         }
       ]
     },
     {
-      "Route": "css/hello.css",
+      "Route": "css/hello.biadehtt3j.css",
       "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/wwwroot/css/hello.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6615,7 +6623,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "251"
+          "Value": "276"
         },
         {
           "Name": "Content-Type",
@@ -6623,121 +6631,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs=\""
+          "Value": "\"jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 07:57:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs="
-        }
-      ]
-    },
-    {
-      "Route": "css/hello.css.gz",
-      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-y4ch73lxtg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "169"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aMp6Q47G6J/y9JNvsTN8vFhs12EOwkZQZnfu5UpLcFo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 07:57:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aMp6Q47G6J/y9JNvsTN8vFhs12EOwkZQZnfu5UpLcFo="
-        }
-      ]
-    },
-    {
-      "Route": "css/hello.y4ch73lxtg.css",
-      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-y4ch73lxtg.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.005882352941"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "169"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aMp6Q47G6J/y9JNvsTN8vFhs12EOwkZQZnfu5UpLcFo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 07:57:26 GMT"
+          "Value": "Sat, 09 Aug 2025 08:02:30 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y4ch73lxtg"
+          "Value": "biadehtt3j"
         },
         {
           "Name": "label",
@@ -6745,13 +6653,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs="
+          "Value": "sha256-jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI="
         }
       ]
     },
     {
-      "Route": "css/hello.y4ch73lxtg.css",
-      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/wwwroot/css/hello.css",
+      "Route": "css/hello.biadehtt3j.css.gz",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-biadehtt3j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6760,7 +6668,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "251"
+          "Value": "175"
         },
         {
           "Name": "Content-Type",
@@ -6768,56 +6676,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs=\""
+          "Value": "\"7nfoJwuIxydTGsrCRvfHat8aY/q+Cf0yRCwfwjJIX4Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 07:57:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y4ch73lxtg"
-        },
-        {
-          "Name": "label",
-          "Value": "css/hello.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TsXA0aWuAviylwlHpUfUAoxUXbDqCDjlTN/uKmHkTRs="
-        }
-      ]
-    },
-    {
-      "Route": "css/hello.y4ch73lxtg.css.gz",
-      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-y4ch73lxtg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "169"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aMp6Q47G6J/y9JNvsTN8vFhs12EOwkZQZnfu5UpLcFo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 07:57:26 GMT"
+          "Value": "Sat, 09 Aug 2025 08:02:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6835,7 +6698,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y4ch73lxtg"
+          "Value": "biadehtt3j"
         },
         {
           "Name": "label",
@@ -6843,7 +6706,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aMp6Q47G6J/y9JNvsTN8vFhs12EOwkZQZnfu5UpLcFo="
+          "Value": "sha256-7nfoJwuIxydTGsrCRvfHat8aY/q+Cf0yRCwfwjJIX4Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/hello.css",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-biadehtt3j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005681818182"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7nfoJwuIxydTGsrCRvfHat8aY/q+Cf0yRCwfwjJIX4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 08:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI="
+        }
+      ]
+    },
+    {
+      "Route": "css/hello.css",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/wwwroot/css/hello.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 08:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jcfpvOGrtTPLbp9XIIpAZvp/2aQ0Utf9su9PgxgWsFI="
+        }
+      ]
+    },
+    {
+      "Route": "css/hello.css.gz",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo3/obj/Debug/net9.0/compressed/cyfcv3cwwg-biadehtt3j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7nfoJwuIxydTGsrCRvfHat8aY/q+Cf0yRCwfwjJIX4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Aug 2025 08:02:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7nfoJwuIxydTGsrCRvfHat8aY/q+Cf0yRCwfwjJIX4Y="
         }
       ]
     },
