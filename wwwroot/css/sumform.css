@@ -1,0 +1,11 @@
+.add-box{
+    height: 500px;
+    width: 500px;
+    background-color: #c5b9fa;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-left: 35%;
+    padding-top: 30px;
+    padding-left: 30px;
+    box-shadow: 0 0 10px rgba(5, 179, 231, 0.1);
+}

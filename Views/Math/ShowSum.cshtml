@@ -1,0 +1,37 @@
+@model Demo4.Models.AddNumberModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sum Result</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/sumform.css" />
+</head>
+<body>
+    <div class="row">
+        <div class="add-box">
+            <h1>Sum Result</h1>
+            
+            <div class="form-group">
+                <form asp-action="ShowSum" method="post">
+                    <!-- Correct binding using asp-for -->
+                    <input asp-for="Number1" class="form-control mt-3" placeholder="First Number" />
+                    <input asp-for="Number2" class="form-control mt-3" placeholder="Second Number" />
+                    
+                    <button type="submit" class="btn btn-primary mt-3">Calculate Sum</button>
+                </form>
+
+                @if (Model != null)
+                {
+                    <div class="alert alert-success mt-4">
+                        Result: @Model.Result
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>     
+</html>
