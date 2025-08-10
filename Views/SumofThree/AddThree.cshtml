@@ -1,0 +1,41 @@
+
+@model Demo5.Models.AddtheNumbersModel;
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Three Numbers</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="~/css/form-box.css" />
+    
+</head>
+<body>
+    <div class="row">
+        <div class="add-box">
+            <form method="post" asp-action="AddThree" asp-controller="SumofThree">
+                <div class="form-group">
+                    <label for="number1">Number 1:</label>
+                    <input type="number" asp-form="Number1" class="form-control" id="number1" name="number1" required />
+                    <label for="number2">Number 2:</label>
+                    <input type="number" asp-form="Number2" class="form-control" id="number2" name="number2" required />
+                    <label for="number3">Number 3:</label>
+                    <input type="number" asp-form="Number3" class="form-control" id="number3" name="number3" required />
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Add</button>
+                @if (Model != null)
+        {
+            <div class="alert alert-success mt-4">
+                Result: @Model.Result
+            </div>
+        }
+            </form>
+        </div>
+    </div>
+</body>
+</html>
