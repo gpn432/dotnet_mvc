@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1ALy8SFO/R3Di8uYgNiiv/3Ycrmp6oWJoyvmXvIsfzw=",
+  "Hash": "vfEOxfuIMnmOnemcwVXviU3yGcdMe1myOIL4m/9bHOs=",
   "Source": "Demo7",
   "BasePath": "_content/Demo7",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/17a5fo58af-psro3o3k7a.gz",
+      "SourceId": "Demo7",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Demo7",
+      "RelativePath": "css/check_design#[.{fingerprint=psro3o3k7a}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/check_design.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kduo02k7ga",
+      "Integrity": "yPcvjyYvfONF97gDIc2aFcq6yjN/9lgXzlrk1WlWnZ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/check_design.css"
     },
     {
       "Identity": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/1edmn66n28-r4e9w2rdcm.gz",
@@ -1403,6 +1424,27 @@
       "OriginalItemSpec": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/scopedcss/projectbundle/Demo7.bundle.scp.css"
     },
     {
+      "Identity": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/check_design.css",
+      "SourceId": "Demo7",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/",
+      "BasePath": "_content/Demo7",
+      "RelativePath": "css/check_design#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "psro3o3k7a",
+      "Integrity": "R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/check_design.css"
+    },
+    {
       "Identity": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/site.css",
       "SourceId": "Demo7",
       "SourceType": "Discovered",
@@ -2727,6 +2769,304 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/check_design.css",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/17a5fo58af-psro3o3k7a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006329113924"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPcvjyYvfONF97gDIc2aFcq6yjN/9lgXzlrk1WlWnZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 04:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns="
+        }
+      ]
+    },
+    {
+      "Route": "css/check_design.css",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/check_design.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 04:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns="
+        }
+      ]
+    },
+    {
+      "Route": "css/check_design.css.gz",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/17a5fo58af-psro3o3k7a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPcvjyYvfONF97gDIc2aFcq6yjN/9lgXzlrk1WlWnZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 04:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPcvjyYvfONF97gDIc2aFcq6yjN/9lgXzlrk1WlWnZ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/check_design.psro3o3k7a.css",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/17a5fo58af-psro3o3k7a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006329113924"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPcvjyYvfONF97gDIc2aFcq6yjN/9lgXzlrk1WlWnZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 04:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "psro3o3k7a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/check_design.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns="
+        }
+      ]
+    },
+    {
+      "Route": "css/check_design.psro3o3k7a.css",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/check_design.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 04:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "psro3o3k7a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/check_design.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+qIgv8PqfvUqHwgWWhv0e1+gaVLWzaodkhBBDAI4ns="
+        }
+      ]
+    },
+    {
+      "Route": "css/check_design.psro3o3k7a.css.gz",
+      "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/17a5fo58af-psro3o3k7a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yPcvjyYvfONF97gDIc2aFcq6yjN/9lgXzlrk1WlWnZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 17 Aug 2025 04:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "psro3o3k7a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/check_design.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yPcvjyYvfONF97gDIc2aFcq6yjN/9lgXzlrk1WlWnZ0="
+        }
+      ]
+    },
     {
       "Route": "css/site.css",
       "AssetFile": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/ikefhue71n-lugek5hnai.gz",

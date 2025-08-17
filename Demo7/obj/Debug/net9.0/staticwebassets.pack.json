@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/Demo7.gllitw51xf.bundle.scp.css"
     },
     {
+      "Id": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/check_design.css",
+      "PackagePath": "staticwebassets/css/check_design.css"
+    },
+    {
       "Id": "/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

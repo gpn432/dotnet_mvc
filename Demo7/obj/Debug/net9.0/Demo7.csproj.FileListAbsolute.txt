@@ -95,3 +95,5 @@
 /home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/Demo7.pdb
 /home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/Demo7.genruntimeconfig.cache
 /home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/ref/Demo7.dll
+/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/Demo7.sourcelink.json
+/home/gpntech07/Desktop/codes/dotnet/mvc/Demo7/Demo7/obj/Debug/net9.0/compressed/17a5fo58af-psro3o3k7a.gz

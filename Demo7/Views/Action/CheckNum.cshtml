@@ -1,0 +1,38 @@
+@model Demo7.Models.ActionPage.CheckNumberModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="~/css/check_design.css"/>
+
+</head>
+<body>
+    <div class="form-box">    
+        <form asp-action="CheckNum" method="post">
+            <input asp-for="Num1" class="form-control mt-3" placeholder="Enter a number">
+            <input asp-for="Num2" class="form-control mt-3" placeholder="Enter the Limit">
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+        @if (Model != null)
+{
+    <p>Num1: @Model.Num1</p>
+    <p>Num2: @Model.Num2</p>
+    @if (Model.Result == true){
+        <p> @Model.Num1 is greater than @Model.Num2</p>
+    }
+    else {
+        <p>@Model.Num1 is less than @Model.Num2</p>
+    }
+}
+        
+    </div>
+</body>
+</html>
