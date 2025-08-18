@@ -1,0 +1,12 @@
+.form-box{
+    height: 600px;
+    width: 900px;
+    background-color: rgb(194, 172, 245);
+    border-radius: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    margin-left: 15%;
+    margin-top: 70px;
+}
