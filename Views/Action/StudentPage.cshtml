@@ -1,0 +1,30 @@
+@model Demo11.Models.DB_Models.Action.StudentModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="~/css/studentpage.css" />
+
+</head>
+<body>
+    <div class="form-box">
+        <form action="Student_Data_Input" method="POST">
+            <input asp-for="Student_Name" class="form-control mt-3" type="text" placeholder="Student Name" />
+            <input asp-for="Class" class="form-control mt-3" type="number" placeholder="Class" />
+            <input asp-for="Div" class="form-control mt-3" type="text" placeholder="Division" />
+            <input asp-for="Roll_No" class="form-control mt-3" type="number" placeholder="Roll-No" />
+            <input asp-for="Age" class="form-control mt-3" type="number" placeholder="Age" />
+            <button class="btn btn-primary mt-3" type="submit" style="width: 100px;">Add</button>
+        </form>
+
+    </div>
+</body>
+</html>
