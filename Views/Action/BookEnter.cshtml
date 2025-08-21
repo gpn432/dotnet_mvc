@@ -1,0 +1,37 @@
+@model Demo10.Models.DB_Models.ActionPageModel.BookModel; //Here add the name of the class where model is stored along with the namespace. BookModel is the class name here
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BookEnter Page</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="~/css/BookEnter.css" />
+
+</head>
+<body>
+    @if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success mt-3" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+    <div class="row">
+        <div class="form-box">
+            <form asp-action="Book_Data_Input" method="POST">
+                <input asp-for="Book_Name" type="text" class="form-control mt-3" placeholder="Book Name" />
+                <input asp-for="Isbn_Code" type="number" class="form-control mt-3" placeholder="ISBN Code" />
+                <input asp-for="Author" type="text" class="form-control mt-3" placeholder="Author" />
+                <input asp-for="Type" type="text" class="form-control mt-3" placeholder="Type" />
+                <button type="submit" class="btn btn-primary mt-3" style="width: 100px;">Add</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
